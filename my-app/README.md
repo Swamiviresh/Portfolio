@@ -47,5 +47,11 @@ All content is stored in `src/lib/utils/data.ts`. Edit this file to update:
 Resume PDF is hosted on Supabase Storage:
 https://nlmmbqpnshyrovulfmhm.supabase.co/storage/v1/object/public/resume/Resume.pdf
 
+## Environment Variables
+Copy `.env.example` to `.env.local` and update the resume URL if needed:
+```bash
+cp .env.example .env.local
+```
+
 ## Deployment
 Deployed on Vercel. Push to main branch triggers automatic deployment.
